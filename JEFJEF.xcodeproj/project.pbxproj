@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90C70F31D24017D004E206D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C70F21D24017D004E206D /* SecondViewController.swift */; };
+		C90C70F51D241906004E206D /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C70F41D241906004E206D /* CellTableViewCell.swift */; };
+		C90C70F71D2426D5004E206D /* navigationcontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90C70F61D2426D5004E206D /* navigationcontrol.swift */; };
 		C989E95F1CD9F217006175BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E95E1CD9F217006175BF /* AppDelegate.swift */; };
 		C989E9611CD9F217006175BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E9601CD9F217006175BF /* ViewController.swift */; };
 		C989E9641CD9F217006175BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C989E9621CD9F217006175BF /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		C989E9691CD9F217006175BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C989E9671CD9F217006175BF /* LaunchScreen.storyboard */; };
 		C989E9741CD9F218006175BF /* JEFJEFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E9731CD9F218006175BF /* JEFJEFTests.swift */; };
 		C989E97F1CD9F218006175BF /* JEFJEFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E97E1CD9F218006175BF /* JEFJEFUITests.swift */; };
+		C9B1323C1D1B06BA0021C831 /* ViewDeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1323B1D1B06BA0021C831 /* ViewDeux.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C90C70F21D24017D004E206D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		C90C70F41D241906004E206D /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
+		C90C70F61D2426D5004E206D /* navigationcontrol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navigationcontrol.swift; sourceTree = "<group>"; };
 		C989E95B1CD9F217006175BF /* JEFJEF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JEFJEF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989E95E1CD9F217006175BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C989E9601CD9F217006175BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		C989E97A1CD9F218006175BF /* JEFJEFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JEFJEFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989E97E1CD9F218006175BF /* JEFJEFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFJEFUITests.swift; sourceTree = "<group>"; };
 		C989E9801CD9F218006175BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9B1323B1D1B06BA0021C831 /* ViewDeux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewDeux.swift; path = ../ViewDeux.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				C989E95E1CD9F217006175BF /* AppDelegate.swift */,
 				C989E9601CD9F217006175BF /* ViewController.swift */,
+				C9B1323B1D1B06BA0021C831 /* ViewDeux.swift */,
+				C90C70F21D24017D004E206D /* SecondViewController.swift */,
 				C989E9621CD9F217006175BF /* Main.storyboard */,
 				C989E9651CD9F217006175BF /* Assets.xcassets */,
 				C989E9671CD9F217006175BF /* LaunchScreen.storyboard */,
 				C989E96A1CD9F217006175BF /* Info.plist */,
+				C90C70F41D241906004E206D /* CellTableViewCell.swift */,
+				C90C70F61D2426D5004E206D /* navigationcontrol.swift */,
 			);
 			path = JEFJEF;
 			sourceTree = "<group>";
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90C70F51D241906004E206D /* CellTableViewCell.swift in Sources */,
 				C989E9611CD9F217006175BF /* ViewController.swift in Sources */,
+				C90C70F31D24017D004E206D /* SecondViewController.swift in Sources */,
+				C90C70F71D2426D5004E206D /* navigationcontrol.swift in Sources */,
+				C9B1323C1D1B06BA0021C831 /* ViewDeux.swift in Sources */,
 				C989E95F1CD9F217006175BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JEFJEF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JEF-Indusrty.JEFJEF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JEFJEF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JEF-Indusrty.JEFJEF";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +503,7 @@
 				C989E9851CD9F218006175BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C989E9861CD9F218006175BF /* Build configuration list for PBXNativeTarget "JEFJEFTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +512,7 @@
 				C989E9881CD9F218006175BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C989E9891CD9F218006175BF /* Build configuration list for PBXNativeTarget "JEFJEFUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +521,7 @@
 				C989E98B1CD9F218006175BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
