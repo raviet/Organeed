@@ -17,6 +17,7 @@
 		C989E9691CD9F217006175BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C989E9671CD9F217006175BF /* LaunchScreen.storyboard */; };
 		C989E9741CD9F218006175BF /* JEFJEFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E9731CD9F218006175BF /* JEFJEFTests.swift */; };
 		C989E97F1CD9F218006175BF /* JEFJEFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C989E97E1CD9F218006175BF /* JEFJEFUITests.swift */; };
+		C99227C21D245B6E00A2DC80 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99227C11D245B6E00A2DC80 /* test.swift */; };
 		C9B1323C1D1B06BA0021C831 /* ViewDeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B1323B1D1B06BA0021C831 /* ViewDeux.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		C989E97A1CD9F218006175BF /* JEFJEFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JEFJEFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C989E97E1CD9F218006175BF /* JEFJEFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JEFJEFUITests.swift; sourceTree = "<group>"; };
 		C989E9801CD9F218006175BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99227C11D245B6E00A2DC80 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		C9B1323B1D1B06BA0021C831 /* ViewDeux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewDeux.swift; path = ../ViewDeux.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +117,7 @@
 				C989E96A1CD9F217006175BF /* Info.plist */,
 				C90C70F41D241906004E206D /* CellTableViewCell.swift */,
 				C90C70F61D2426D5004E206D /* navigationcontrol.swift */,
+				C99227C11D245B6E00A2DC80 /* test.swift */,
 			);
 			path = JEFJEF;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				C90C70F71D2426D5004E206D /* navigationcontrol.swift in Sources */,
 				C9B1323C1D1B06BA0021C831 /* ViewDeux.swift in Sources */,
 				C989E95F1CD9F217006175BF /* AppDelegate.swift in Sources */,
+				C99227C21D245B6E00A2DC80 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
